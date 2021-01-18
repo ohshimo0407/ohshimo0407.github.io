@@ -19,8 +19,10 @@ let app = new Vue({
         },
 
         deleteItem: function(index){
-            this.tasks.splice(index, 1);
-            localStorage.tasks = JSON.stringify(this.tasks);
+            if(this.tasks[index].isDone){
+                this.tasks.splice(index, 1);
+                localStorage.tasks = JSON.stringify(this.tasks);
+            }
         }
     }
 })

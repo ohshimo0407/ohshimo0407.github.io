@@ -7,6 +7,10 @@ li {
     text-decoration: line-through;
 }
 
+.done::after {
+    content:" is Done!!";
+}
+
 
 .list-group-item button {
     position: absolute;
