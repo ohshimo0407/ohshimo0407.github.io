@@ -19,3 +19,7 @@ li {
     bottom: 5px;
     margin: auto;
 }
+
+[v-cloak] {
+    display: none;
+}

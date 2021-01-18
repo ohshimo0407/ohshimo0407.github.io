@@ -28,7 +28,7 @@
                         <button type="submit" v-on:click="addClick" class="btn btn-secondary">Add</button>
                     </div>
                     <ul class="list-group">
-                        <li v-for="(task, index) in tasks" class="list-group-item"><input type="checkbox" v-model="task.isDone"> <span v-bind:class="{done: task.isDone}">{{ task.item }}</span><button v-on:click="deleteItem(index)"  class="btn btn-outline-secondary">Delete</button></li>
+                        <li v-cloak v-for="(task, index) in tasks" class="list-group-item"><input type="checkbox" v-model="task.isDone"> <span v-bind:class="{done: task.isDone}">{{ task.item }}</span><button v-on:click="deleteItem(index)"  class="btn btn-outline-secondary">Delete</button></li>
                     </ul>
                 </div>
             </div>
