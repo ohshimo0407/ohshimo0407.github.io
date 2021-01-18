@@ -1,0 +1,17 @@
+li {
+    list-style: none;
+    position: relative;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+
+.list-group-item button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    margin: auto;
+}
