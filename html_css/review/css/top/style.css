@@ -1,0 +1,39 @@
+body {
+    color: white;
+    background-image: url(../../images/full_screen_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 128px;
+    line-height: 1;
+    letter-spacing: -6px;
+    font-family: 'Arvo', serif;
+    margin-bottom: 32px;
+}
+
+.content {
+    margin-top: 128px;
+}
+
+button {
+    background-color: darkgreen;
+    border-color: darkgreen;
+    font-family: 'Arvo', serif;
+    color: white;
+    font-size: 20px;
+    width: 192px;
+    display: block;
+    height: 64px;
+    border-radius: 10px;
+}
+
+button:hover {
+    text-decoration: none;
+    background-color: white;
+    color: darkgreen;
+}
+

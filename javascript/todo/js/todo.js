@@ -13,9 +13,11 @@ let app = new Vue({
     },
     methods: {
         addClick: function(){
-            this.tasks.push({item: this.task, isDone: false});
-            this.task = "";
-            localStorage.tasks = JSON.stringify(this.tasks);
+            if (this.task != '') {
+                this.tasks.push({item: this.task, isDone: false});
+                this.task = "";
+                localStorage.tasks = JSON.stringify(this.tasks);
+            }
         },
 
         deleteItem: function(index){

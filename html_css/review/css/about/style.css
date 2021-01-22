@@ -1,0 +1,72 @@
+body {
+    background-image: url(../../images/bg_about.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+#wrap {
+    background-color: white;
+    margin-top: 220px;
+    padding: 64px 32px;
+}
+
+.content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Arvo', serif;
+    font-size: 64px;
+    border-bottom: 1px solid darkgray;
+}
+
+h2 {
+    font-family: 'Arvo', serif;
+    font-size: 32px;
+    border-bottom: 1px solid darkgray;
+}
+
+.profile-text {
+    width: 540px;
+    float: left;
+}
+
+.profile-text p {
+    margin-bottom: 0;
+
+}
+
+.profile-image {
+    width: 360px;
+    float: right;
+}
+.profile-image img {
+    width: 360px;
+}
+
+.career {
+    clear: both;
+}
+
+table {
+    border-collapse: collapse;
+}
+.career th {
+    width: 240px;
+    background-color: lightgrey;
+    border: 1px solid white;
+}
+
+.career td {
+    width: 660px;
+    padding: 12px;
+    border: 1px solid darkgray;
+}
+
+footer {
+    background-color: white;
+    padding-top: 64px;
+}

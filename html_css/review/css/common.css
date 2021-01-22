@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: darkgray;
+    font-size: 16px;
+    line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+}
+
+ul {
+    margin:0;
+    padding: 0;
+}
+
+a {
+    text-decoration-line: none;
+    color: inherit;
+}
+
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+header {
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.icon {
+    padding-left: 16px;
+    border-left: 16px solid darkgray;
+}
+
+.logo {
+    float: left;
+    margin-top: 50px;
+    font-family: 'Gorditas', cursive;
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 2px 8px #808080;
+}
+
+.logo a:hover {
+    text-decoration-line: none;
+}
+
+.global-nav {
+    float: right;
+    margin-top: 60px;
+}
+
+.global-nav li {
+    float: left;
+    margin: 0 20px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.global-nav li a {
+    color: white;
+}
+
+.global-nav li a:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+#wrap {
+    clear: both;
+}
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    padding-top: 256px;
+    padding-bottom: 32px;
+}
+
+footer div {
+    margin:0 auto 0 auto;
+    width: 960px;
+    text-align: right;
+}

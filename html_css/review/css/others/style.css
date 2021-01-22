@@ -1,0 +1,73 @@
+body {
+    background-image: url(../../images/review_books.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    position: relative;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#wrap {
+    background-color: white;
+    margin-top: 220px;
+    padding: 64px 32px;
+    position: relative;
+    z-index: 1;
+}
+
+#wrap::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+main {
+    width: 700px;
+    margin: 0 10px;
+    float: left;
+}
+
+main section {
+    padding: 16px;
+    border: 1px solid darkgray;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+main p {
+    margin-bottom: 0;
+}
+
+aside {
+    width: 200px;
+    margin: 0 10px 0 30px;
+    float: right;
+}
+
+aside h2 {
+    margin-bottom: 8px;
+}
+
+aside ul {
+    font-size: 12px;
+    list-style: none;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+}
+footer {
+    background-color: white;
+    padding-top: 64px;
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,90 @@
+body {
+    background-image: url(../../images/bg_review.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+#wrap {
+    background-color: white;
+    margin-top: 220px;
+    padding: 64px 32px;
+}
+
+.content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Arvo', serif;
+    font-size: 64px;
+    border-bottom: 1px solid darkgray;
+}
+
+h2 {
+    font-family: 'Arvo', serif;
+    font-size: 32px;
+    border-bottom: 1px solid darkgray;
+}
+
+.form {
+    background-color: lightgray;
+    padding: 32px 64px;
+    border-radius: 20px;
+}
+
+.form dl dt {
+    width: 128px;
+    padding: 12px 0;
+    float: left;
+    clear: both;
+}
+
+.form dl dd {
+    padding: 12px 0;
+}
+
+.form input {
+    width: 400px;
+    height: 30px;
+}
+
+.form textarea {
+    width: 600px;
+    height: 150px;
+}
+
+button {
+    background-color: darkgreen;
+    border-color: darkgreen;
+    font-family: 'Arvo', serif;
+    color: white;
+    font-size: 20px;
+    width: 120px;
+    display: block;
+    height: 48px;
+    border-radius: 10px;
+    margin: 0 0 50px 128px;
+}
+
+button:hover {
+    text-decoration: none;
+    background-color: white;
+    color: darkgreen;
+}
+
+.required:after {
+    content:"*";
+    color: red;
+}
+
+.attention {
+    margin-left: 128px;
+}
+
+footer {
+    background-color: white;
+    padding-top: 64px;
+}

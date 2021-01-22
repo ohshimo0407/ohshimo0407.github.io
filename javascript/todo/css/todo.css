@@ -20,6 +20,14 @@ li {
     margin: auto;
 }
 
+li label {
+   margin-bottom: 0; 
+}
+
+.middle {
+    vertical-align: middle;
+}
+
 [v-cloak] {
     display: none;
 }
